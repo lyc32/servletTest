@@ -15,7 +15,7 @@
     {
         if(cookies[i].getName().equals("username"))
         {
-            userName = cookies[0].getName() + " " + cookies[0].getValue();
+            userName = cookies[i].getName() + " " + cookies[i].getValue();
         }
     }
 %>
